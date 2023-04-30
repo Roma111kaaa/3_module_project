@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   line-height: 1.4;
   color: #000;
-  min-width: 320px;
+  min-width: 500px;
   overflow-x: hidden;
   height: auto;
 }
@@ -89,4 +89,22 @@ body {
   .callback {
     display: none;
   }
+}
+
+.main {
+  position: relative;
+  background-color: #ECD444;
+  height: 700px;
+  width: auto;
+  margin: 50px 30px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.pen {
+  width: 500px;
+  height: auto;
+  display: flex;
+  margin: auto auto;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 1));
 }
